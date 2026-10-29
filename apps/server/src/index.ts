@@ -32,6 +32,7 @@ app.use(
   }),
 );
 
+const broken = ;
 app.get("/", (c) => {
   return c.text("OK");
 });
